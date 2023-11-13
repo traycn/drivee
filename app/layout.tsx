@@ -3,7 +3,7 @@ import './globals.css'
 import { Footer, Navbar } from '@/components'
 
 export const metadata: Metadata = {
-  title: 'Drive Ease',
+  title: 'Drivee',
   description: 'Discover your next best drive.',
 }
 
