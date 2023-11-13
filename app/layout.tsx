@@ -3,7 +3,7 @@ import './globals.css'
 import { Footer, Navbar } from '@/components'
 
 export const metadata: Metadata = {
-  title: 'Car Hub',
+  title: 'Drive Ease',
   description: 'Discover your next best drive.',
 }
 
@@ -14,6 +14,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head><link rel="shortcut icon" href="/favicon.ico" /></head>
       <body className="relative">
         <Navbar />
         {children}

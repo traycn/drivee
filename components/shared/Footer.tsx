@@ -6,16 +6,16 @@ const Footer = () => {
   return (
     <footer className='flex flex-col text-black-100 mt-5 border-t border-gray-100'>
       <div className='flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10'>
-        <div className='flex flex-col justify-start items-start gap-6'>
+        <div className='flex flex-col justify-start items-start gap-1'>
           <Image 
-            src="/logo.svg"
+            src="/logo-header.svg"
             alt="logo"
             width={118}
             height={18}
             className='object-contain'           
           />
-          <p className='text-base text-gray-700'>Carhub 2023 <br />
-          All rights reserved &copy;</p>
+          <p className='text-base text-gray-700'>Drive Ease 2023 <br />
+          </p>
         </div>
 
         <div className='footer__links'>
@@ -39,14 +39,14 @@ const Footer = () => {
       </div>
 
       <div className='flex justify-between items-center flex-wrap mt-10 border-t border-gray-100 sm:px-16 px-6 py-10'>
-          <p>@2023 CarHub. All Rights Reserved.</p>
+          <p>2023 Drive Ease.</p>
 
           <div className='footer__copyrights-link'>
               <Link href="/" className='text-gray-500'> 
-                Privacy Policy
+                Priivacy Policy
               </Link>
               <Link href="/" className='text-gray-500'> 
-                Terms of Use
+                Terms of Ose
               </Link>
           </div>
       </div>
